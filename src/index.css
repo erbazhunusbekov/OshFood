@@ -1,0 +1,40 @@
+body {
+  background-color: #333 !important;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.spin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.Cards {
+  height: 465px;
+}
+.mySpan {
+  transition: .5s;
+}
+.Cards:hover .mySpan {
+  transform: scale(0.97);
+}
+.myBtn {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.add, .del {
+  transform: scale(1.5);
+  margin-right: 10px;
+  margin-bottom: 3px;
+}
